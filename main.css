@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:darkmagenta;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+header > h1{
+    font-size: 50px;
+    color: white;
+}
+.cont_in{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.content{
+    width: 30%;
+    height: 500px;
+    padding: 20px 10px;
+    background-color: aqua;
+    font-size: 18px;
+}
+.content > h2{
+    margin-bottom: 20px;
+}
+.a2{
+    width: 40%;
+    padding: 15px;
+}
+button{
+    padding: 10px 50px;
+}
+.btn{
+    width: 100%;
+    margin-bottom: 20px;
+}
